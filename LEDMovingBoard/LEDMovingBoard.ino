@@ -99,11 +99,6 @@ void setup() {
     Serial.print(" to work with this library. Stopping.");
     while (1);
   }
-  /*for (z = -5; z <= 19; z++) {
-    matrix.drawCircle(z, 4, 4, 64);
-    delay(300);
-    matrix.clear();
-    }*/
 }
 
 
@@ -130,48 +125,4 @@ void loop() {
       Serial.println(z_pos);
     }
   }
-
-  /*matrix.setRotation(0);
-
-    matrix.clear();
-    matrix.drawBitmap(3, 0, smile_bmp, 8, 8, 255);
-
-    matrix.clear();
-    matrix.drawBitmap(3, 0, neutral_bmp, 8, 8, 64);
-
-    matrix.clear();
-    matrix.drawBitmap(3, 0, frown_bmp, 8, 8, 32);
-
-    matrix.clear();
-    matrix.drawPixel(0, 0, 255);
-
-    matrix.clear();
-    matrix.drawLine(0, 0, matrix.width() - 1, matrix.height() - 1, 127);
-
-    matrix.clear();
-    matrix.drawRect(0, 0, matrix.width(), matrix.height(), 255);
-    matrix.fillRect(2, 2, matrix.width() - 4, matrix.height() - 4, 20);
-
-    matrix.clear();
-    matrix.drawCircle(8, 4, 4, 64);
-    matrix.drawCircle(8, 4, 2, 32);*/
-
-
-  /*matrix.setTextSize(1);
-    matrix.setTextWrap(false);
-    matrix.setTextColor(100);
-    for (int8_t x = 0; x >= -32; x--) {
-    matrix.clear();
-    matrix.setCursor(x, 0);
-    matrix.print("Hello");
-    }*/
-  /*
-    matrix.setTextSize(1);
-    matrix.setTextWrap(false);
-    matrix.setTextColor(100);
-    for (int8_t x = 7; x >= -32; x--) {
-      matrix.clear();
-      matrix.setCursor(x, 0);
-      matrix.print("World");
-    }*/
 }
