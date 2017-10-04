@@ -116,7 +116,7 @@ void loop() {
     z = map(z_pos, 0, 240, -6, 20);
     if ( z_pos != ZX_ERROR ) {
       if (x_pos > 20) {
-        matrix.clear();
+        //matrix.clear();
         matrix.drawPixel(z, x, 64);
       } else {
         matrix.clear();
